@@ -259,7 +259,7 @@ export default function Home() {
                     </div>
 
                     <div className="tab-section pt-5">
-                        <nav className="d-flex justify-content-center wow fadeInLeft" data-wow-delay="0.3s">
+                        <nav className="d-flex justify-content-center" data-wow-delay="0.3s">
                             <div className="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab"
                                 role="tablist">
                                 <button className="nav-link active" id="nav-SectionOne-tab" data-bs-toggle="tab"
