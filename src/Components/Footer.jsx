@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer className="pt-5 pb-3">
-            <div className="container">
+            <div className="container px-4 px-md-0">
                 <div className="row">
                     <div className="col-md-4">
                         <h2>Assignment Helper</h2>

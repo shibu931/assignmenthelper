@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <header>
             <nav className="navbar navbar-expand-lg border-bottom border-dark">
-                <div className="container-fluid px-0 px-md-5">
+                <div className="container-fluid px-2 px-md-5">
                     <a className="navbar-brand" href="#">
                         <img src="https://placehold.co/150x50" className="rounded-pill" alt="logo"/>
                     </a>

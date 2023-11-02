@@ -188,7 +188,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="row my-5">
-                        <div className="col-md-6 pe-0 pe-md-5">
+                        <div className="col-md-6 px-3 pe-md-5 mb-4 mb-md-0">
                             <div className="box-2">
                                 <img src="https://placehold.co/80x80" width="80" className="primary-shadow rounded" alt="" />
                                 <h2 className="display-6 mt-4 fw-semibold">Lorem Ipsum</h2>
@@ -214,7 +214,7 @@ export default function Home() {
                                 <p className="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione natus sit saepe autem maxime labore, exercitationem facilis qui, minima veniam aliquam eaque aut dolore soluta dignissimos architecto. Pariatur, nostrum minus.</p>
                             </div>
                         </div>
-                        <div className="col-md-6 ps-0 ps-md-5">
+                        <div className="col-md-6 px-3 ps-md-5">
                             <div className="box-3">
                                 <img src="https://placehold.co/80x80" width="80" className="primary-shadow rounded" alt="" />
                                 <h2 className="display-6 mt-4 fw-semibold">Lorem Ipsum</h2>
@@ -347,7 +347,7 @@ export default function Home() {
             <div className="section-4 py-5">
                 <div className="container-xl py-5">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 px-4 mb-4 mb-lg-0">
                             <span>Lorem ipsum dolor sit.</span>
                             <h2 className="display-2 fw-semibold">Common Questions</h2>
                             <p className="fs-5 pe-5 mt-3">Find the answers to frequently asked questions here</p>
@@ -419,12 +419,11 @@ export default function Home() {
                     <h2 className="display-4 mb-4 font-semibold">Why they love Assignment Helper</h2>
                     <Swiper
                         spaceBetween={50}
-                        slidesPerView={2}
                         autoplay={true}
                         pagination={{
                             clickable: true,
                         }}
-                        breakpoints={{
+                        breakPoints={{
                             640: {
                                 slidesPerView: 1,
                                 spaceBetween: 20,
